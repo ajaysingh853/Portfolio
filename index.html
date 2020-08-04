@@ -139,23 +139,29 @@
     <div class="container work" id="work">
       <h1>Work</h1>
       <div class="work-category">
-        <button id="btnDesign" class="active">Web Designing</button>
-        <button id="btnAnimation">Web Animation</button>
-        <button id="btnProject">React Project</button>
+        <button id="Design" class="active" onclick="showRequiredCategory(this)">
+          Web Designing
+        </button>
+        <button id="Animation" onclick="showRequiredCategory(this)">
+          Web Animation
+        </button>
+        <button id="Project" onclick="showRequiredCategory(this)">
+          React Project
+        </button>
       </div>
-      <div class="category-desiging showCategory">
+      <div class="category-Design showCategory">
         <a href=""><img src="img/1.png" /></a>
         <a href=""><img src="img/2.png" /></a>
         <a href=""><img src="img/3.png" /></a>
         <a href=""><img src="img/2.png" /></a>
         <a href=""><img src="img/3.png" /></a>
       </div>
-      <div class="category-desiging hideCategory">
+      <div class="category-Animation hideCategory">
         <a href=""><img src="img/1.png" /></a>
         <a href=""><img src="img/2.png" /></a>
         <a href=""><img src="img/3.png" /></a>
       </div>
-      <div class="category-desiging hideCategory">
+      <div class="category-Project hideCategory">
         <a href=""><img src="img/1.png" /></a>
         <a href=""><img src="img/2.png" /></a>
         <a href=""><img src="img/3.png" /></a>
@@ -168,7 +174,6 @@
       <form>
         <input type="text" name="name" placeholder="Full Name" />
         <input type="email" name="email" placeholder="Email" />
-        <input type="email" placeholder="personal@example.com" disabled />
         <textarea
           name="message"
           cols="30"
