@@ -265,7 +265,7 @@ div[class^="bar-"] {
 }
 
 div[class^="category-"] {
-  margin-top: 50px;
+  margin-top: -50px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   grid-gap: 20px;
@@ -299,7 +299,7 @@ div.hideCategory {
 }
 
 .contact {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 form input,
